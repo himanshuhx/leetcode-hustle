@@ -17,4 +17,4 @@ return left/left - 1    // depends upon question where k is minimized
 
 // if there is a question where arr is given and m is given
 // ex - arr = [1,2,4,3,7] k = 2
-// it may e variation of ship capacity/koko banana problem
+// it may be variation of ship capacity/koko banana problem
