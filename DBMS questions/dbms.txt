@@ -1,0 +1,76 @@
+• What are the different types of SQL joins and when would you use each one?
+
+In relational databases, such as SQL Server, Oracle, MySQL, and others, data is stored in multiple tables that are related to each other with a common key value. 
+Accordingly, there is a constant need to extract records from two or more tables into a results table based on some condition. In SQL Server, this can be easily
+accomplished with the SQL JOIN clause.
+
+Types of joins in sql server - 
+1. INNER JOIN
+2. LEFT OUTER JOIN
+3. RIGHT OUTER JOIN
+4. SELF JOIN
+5. CROSS JOIN
+
+INNER JOIN statement returns only those records or rows that have matching values and is used to retrieve data that appears in both tables.
+When applying an SQL INNER JOIN, the output returns only matching rows from the stated tables.
+
+OUTER JOIN will retrieve not only the matching rows but also the unmatched rows as well.
+LEFT OUTER JOIN gives the output of the matching rows between both tables. In case, no records match from the left table, it shows 
+those records with null values.
+RIGHT OUTER JOIN works by the same principle as the LEFT OUTER JOIN. The RIGHT OUTER JOIN selects data from the right table (Table B) and matches this data
+with the rows from the left table (Table A). The RIGHT JOIN returns a result set that includes all rows in the right table, whether or not they have matching
+rows from the left table. In case, a row in the right table does not have any matching rows in the left table, the column of the left table in the result set 
+will have nulls.
+SELF JOIN allows you to join a table to itself. This implies that each row of the table is combined with itself and with every other row of the table. 
+CROSS JOIN command in SQL, also known as a cartesian join, returns all combinations of rows from each table. Envision that you need to find all combinations
+of size and color. In that case, a CROSS JOIN will be an asset. Note, that this join does not need any condition to join two tables. In fact, CROSS JOIN joins 
+every row from the first table with every row from the second table and its result comprises all combinations of records in two table
+
+• What is the difference between INNER JOIN and OUTER JOIN in SQL?
+The biggest difference between an INNER JOIN and an OUTER JOIN is that the inner join will keep only the information from both tables that's related to each 
+other (in the resulting table). An Outer Join, on the other hand, will also keep information that is not related to the other table in the resulting table.
+
+
+• Explain the concept of normalization in database design and why it's important.
+
+
+• What is a primary key and why is it used in a database?
+• Explain the difference between UNION and UNION ALL in SQL.
+
+
+
+• How do you create a new table in SQL? Provide an example.
+• What is a subquery in SQL and how can it be used in a query?
+• Explain the concept of indexing in databases and how it can improve query performance.
+• How do you retrieve the top N records from a table in SQL?
+• What are stored procedures and functions in SQL, and how do they differ?
+• Explain the difference between VARCHAR and CHAR data types in SQL.
+• How do you calculate the average, sum, minimum, and maximum values of a column in SQL?
+• What is a foreign key and how is it used in a database?
+• Explain the concept of ACID properties in the context of database transactions.
+• What is the purpose of the GROUP BY clause in SQL and how does it work?
+• How do you add, modify, and delete data in a table using SQL?
+• Explain the concept of NULL in SQL and how it's handled in queries.
+• What is a view in SQL and why would you use it?
+• How do you retrieve data from multiple tables using JOINs in SQL?
+• Explain the difference between a clustered and a non-clustered index in SQL.
+• What are triggers in SQL and how do they work?
+• How do you handle duplicate records in a table using SQL?
+• Explain the difference between a candidate key, primary key, and super key in database design.
+• What is the purpose of the HAVING clause in SQL and how does it differ from the WHERE clause?
+• Explain the concept of a self-join in SQL and when it might be used.
+• How do you perform data aggregation across multiple groups in SQL?
+• Explain the difference between a database and a schema in SQL.
+• What is the purpose of the ORDER BY clause in SQL and how does it work?
+• What are window functions? Explain with examples.
+• How do you perform string manipulation and pattern matching in SQL?
+• Explain the difference between a left outer join and a right outer join in SQL.
+• What are the different types of subqueries in SQL and how are they used?
+• How do you find and remove duplicate records from a table in SQL?
+• Explain the concept of a materialized view in SQL and how it differs from a regular view.
+• How do you perform data validation and data cleansing in SQL?
+• Explain the difference between a transaction and a savepoint in SQL.
+• What is a schema in SQL and why is it used?
+• How do you calculate the difference between two dates in SQL?
+• Explain the concept of a composite key in database design and when it might be used.
+• What is a temporary table in SQL and how is it used?

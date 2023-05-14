@@ -1,0 +1,20 @@
+This is the template to solve almost all binary search problems.
+
+
+
+
+left, right = [1...n] || [0...len(Arr)-1] //depends upon ques requirement
+while left < right:
+     mid = left + (right - left)//2 //to avoid overflow when inputs are of range 2^31
+     if someCondition(mid):
+        right = mid        // ans lies on left side
+     else:
+        low = mid + 1    //  ans lies on right side
+return left/left - 1    // depends upon question where k is minimized
+
+
+
+
+// if there is a question where arr is given and m is given
+// ex - arr = [1,2,4,3,7] k = 2
+// it may e variation of ship capacity/koko banana problem
