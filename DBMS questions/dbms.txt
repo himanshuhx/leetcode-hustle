@@ -30,14 +30,19 @@ every row from the first table with every row from the second table and its resu
 The biggest difference between an INNER JOIN and an OUTER JOIN is that the inner join will keep only the information from both tables that's related to each 
 other (in the resulting table). An Outer Join, on the other hand, will also keep information that is not related to the other table in the resulting table.
 
-
 • Explain the concept of normalization in database design and why it's important.
-
+Normalization is a database design technique that reduces data redundancy and eliminates undesirable characteristics like Insertion, Update and Deletion 
+Anomalies. Normalization rules divides larger tables into smaller tables and links them using relationships. The purpose of Normalisation in SQL is to 
+eliminate redundant (repetitive) data and ensure data is stored logically.
 
 • What is a primary key and why is it used in a database?
+A candidate key of the table set to identify each record umiquely in a table.It doesnot allow null value in the column.
+
 • Explain the difference between UNION and UNION ALL in SQL.
-
-
+UNION and UNION ALL are both used to retrieve records from multiple tables.Both UNION and UNION ALL are known as set operators. In SQL, set operators combine 
+the results of two or more queries into a single result. 
+UNION combines the result set of two or more SELECT statements, showing only distinct values.
+UNION ALL combines the results of two or more SELECT statements, showing all values, including duplicates if they exist.
 
 • How do you create a new table in SQL? Provide an example.
 • What is a subquery in SQL and how can it be used in a query?
